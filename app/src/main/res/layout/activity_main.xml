@@ -67,6 +67,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.195"
         app:srcCompat="@drawable/bombilla_encendido_apagado_8057531" />
+    
+       <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="411dp"
+        android:layout_height="100dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/botton_nav_menu" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
