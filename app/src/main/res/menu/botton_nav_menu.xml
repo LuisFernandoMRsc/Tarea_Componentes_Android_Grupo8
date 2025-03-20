@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item android:id="@+id/home"
+        android:title="Clima"
+        android:icon="@drawable/baseline_ac_unit_24"/>
+    <item android:id="@+id/hora"
+        android:title="Hora"
+        android:icon="@drawable/baseline_access_time_24"/>
+    <item android:id="@+id/perfil"
+        android:title="Perfil"
+        android:icon="@drawable/baseline_account_box_24"/>
 </menu>
